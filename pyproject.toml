@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "stackoverflow"
+version = "0.1.0"
+description = ""
+authors = ["jidicula <johanan@forcepush.tech>"]
+license = "CC0 1.0 Universal"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+black = "^20.8b1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
